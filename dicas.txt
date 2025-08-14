@@ -1,0 +1,4 @@
+se não estiver na pasta do repositório, "cd nome_do_repositorio"
+se quiser voltar pra pasta anterior, "cd .."
+
+te amo!
