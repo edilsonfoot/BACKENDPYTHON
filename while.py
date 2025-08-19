@@ -13,6 +13,8 @@ while count < 4:
     count = 0
     while count <=10:
         count +=1
-    else:    
+    else:
+        print("terminou o while")
+            
 
                                             
