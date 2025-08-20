@@ -1,9 +1,10 @@
 """
 TIPOS DE DADOS
-- String (textos)
-- Numero - Inteiro
-- Numero - Flutuante (real)
-- Booleano (True / False)
+- string = (textos)
+- numeros inteiros = int
+- numeros decimais = float
+- Booleano = True/False
+
 ----------
 - lista 
 - tupla
@@ -38,4 +39,7 @@ cAsa = 55
 input = 55
 
 print(var != 22)
+
+
+
 

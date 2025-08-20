@@ -60,6 +60,8 @@ print(math.floor(8.999))        # arredondamento pra baixo (fllor =chão)
 print(math.ceil(8.000001))      # arrendondar pra cima (ceil = céu)
 print(math.sqrt(9))             #raiz quadrada
 
+variavel = 42; 1; 2       
+print(type(variavel))
 
 
 
@@ -69,13 +71,32 @@ print(math.sqrt(9))             #raiz quadrada
 
 
 
+#lista = [10, 20, 30, 40, 50]
+#lista.extend([60])
+#print(lista)
 
 
+#lista.remove([1])
+#print(lista)
 
+#lista = [10, 20, 30, 40, 50, 60]
+#lista.remove(20)
+#print(lista)
 
+#lista = [10, 20, 30, 40, 50]
+#print(lista[3])
 
+#dicionário
+aluno = {"nome": "idade": "curso": "notas"}
+"Nome": "Maria"
+"idade": 22
+"curso": "Engenharia"
+"notas": [8.5, 7.0, 9.2]
+dicionário = {"Nome": "Maria", "idade": 22, "curso": "Engeharia", "notas": [8,5, 7.0, 9,2] }
+print{dicionário}
 
-
+"curso" = "Engenharia"
+print{"curso"}
 
 
 

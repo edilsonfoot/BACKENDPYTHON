@@ -48,12 +48,41 @@ print(15//4)
 print(3%4)
 
 #7
-lista = [42, 3.14, "Python", True, [1, 2]]
-print(type("numeros_inteiros"))
-  
+lista = [42, 3.14, "Python", True, [1, 2]
+
+meu_numero = (42, [1, 2])         ###errada
+print(type(meu_numero))
+
+variavel = 3.14                   #float
+print(type(variavel)
+
+texto = "Python"                   #str
+print(type(texto))
+
+variavel = True                    #bool
+print(type(variavel))
+
+variavel = [1, 2]                  #list
+print(type(variavel))
+
+#8
+string = "programação"
+string_invertida = string[::-1]
+print(string_invertida)
 
 
 
+
+#9
+lista = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+
+
+
+#subistitua 8 por 10
+lista[8] = [10]
+print(lista)
+
+903841
 
 
 
