@@ -1,5 +1,5 @@
-num1 = 5            #string int
-num2 = 3.5          #string float
+num1 = 5            # int
+num2 = 3.5          # float
 
 print(type(num1))
 print(type(num2))
@@ -58,4 +58,35 @@ import math                     # biblioteca de matamática
 
 print(math.floor(8.999))        # arredondamento pra baixo (fllor =chão)
 print(math.ceil(8.000001))      # arrendondar pra cima (ceil = céu)
-print(math.sqrt(9))             #raiz quadradada
+print(math.sqrt(9))             #raiz quadrada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

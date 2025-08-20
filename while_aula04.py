@@ -8,4 +8,4 @@ while tem_aula == True:
         break
 print("Hoje não tem aula")
 
-        
+    
