@@ -18,20 +18,30 @@ print(texto_novo)
 #3
 lista = [10, 20, 30, 40, 50]
 print(lista[3])
-      
+    
 
 lista = [10, 20, 30, 40, 50,]
-print(lista.extend[60])
-
-lista.remove([1])
+lista.extend([60])
 print(lista)
 
+lista = [10, 20, 30, 40, 50,60]
+lista.remove(20)
+print(lista)
+
+
+
+
 #4
-dicionário = {"nome": "idade" }
+aluno = {"nome": "idade" }
 "nome": "Maria"
 "idade": 22
 "curso": "Engenharia"
 "notas": [8.5, 7.0, 9.2]
+
+
+#imprimir só o curso
+"curso" = "Engenharia"
+print(curso[""])
 
 
 #5
@@ -50,8 +60,8 @@ print(3%4)
 #7
 lista = [42, 3.14, "Python", True, [1, 2]
 
-meu_numero = (42, [1, 2])         ###errada
-print(type(meu_numero))
+variavel = 42; 1; 2               #int
+print(type(variavel))
 
 variavel = 3.14                   #float
 print(type(variavel)
@@ -82,7 +92,7 @@ lista = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
 lista[8] = [10]
 print(lista)
 
-903841
+
 
 
 
