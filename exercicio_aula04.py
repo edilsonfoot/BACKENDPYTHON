@@ -1,6 +1,8 @@
 a = "123"
-a = int("123")
+a = int("123") 
 a = float("123")
+# 123 
+# 123.0
 
 #2
 texto = "Python é incrível!"   
@@ -79,8 +81,6 @@ print(type(variavel))
 string = "programação"
 string_invertida = string[::-1]
 print(string_invertida)
-
-
 
 
 #9
