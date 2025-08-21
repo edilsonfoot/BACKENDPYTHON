@@ -87,7 +87,7 @@ print(type(variavel))
 #print(lista[3])
 
 #dicionário
-aluno = {"nome": "idade": "curso": "notas"}
+aluno = {"nome": "idade","curso": "notas"}
 "Nome": "Maria"
 "idade": 22
 "curso": "Engenharia"
