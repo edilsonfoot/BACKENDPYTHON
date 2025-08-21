@@ -60,13 +60,13 @@ print(15//4)
 print(3%4)
 
 #7
-lista = [42, 3.14, "Python", True, [1, 2]
+lista = [42, 3.14, "Python", True, [1, 2]]
 
 variavel = 42; 1; 2               #int
 print(type(variavel))
 
 variavel = 3.14                   #float
-print(type(variavel)
+print(type(variavel))
 
 texto = "Python"                   #str
 print(type(texto))
@@ -84,7 +84,7 @@ print(string_invertida)
 
 
 #9
-lista = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+lista = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 
 
