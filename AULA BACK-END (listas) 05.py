@@ -105,7 +105,7 @@ for i in range(3)
         sublista.append(x)
         print(matriz2)
         
- #como acessar eelemento dentro da lista
- print(matriz[1])       
+print(matriz[1][2])                      #como acessar o emlemento na na listas. (posição vert./horiz)
+    
 
 
