@@ -2,3 +2,13 @@ se não estiver na pasta do repositório, "cd nome_do_repositorio"
 se quiser voltar pra pasta anterior, "cd .."
 
 te amo!
+
+CRIAR UM PROJETO APARTIR DE UMA LISTA (EX: BIBLIOTECA, LISTA DE CHAMADAS...)
+C.R.U.D   #(Create (criar), Read (ler), Update (atualizar) e Delete (excluir).
+
+Estudar doc. pois toda empresa usa.
+
+Horário de estudo
+segunda das 18h as 21h
+quarta  das 18h as 21h
+sexta   das 18 as 21h

@@ -39,10 +39,18 @@ print(idade_família)
 
 
 #copiar uma nova familia, apatir da atual (cópia)
-família2 = família
+família2 = família()
+
+#remover um elemento
 família.remove("Edilson")
 print(família)
-print(família2)
+
+
+
+
+
+
+
 
 
 

@@ -80,4 +80,32 @@ numeros2.append("42")
 print(id(numeros))
 print(id(numeros2))
 
+#método copy: criar um novo conjunto.
+frutas = ["laranja", "melão", "banana", "kiwi", "goiaba",]
+frutas = frutas.copy()
+
+#listas bidimensionais ou matriz, como e onde pode ser usada?
+#listas bidimensionais sãomatrizes, no python
+matriz = [[1,2],
+         [3,4]]
+
+matrizes3x3 = [[1,2,"a"],
+               [3,4,"b"],
+               [5,6,"c"]]
+
+
+#criando uma matriz com list comprehension
+matriz = [[0 for i in range(3)] for x in range]  for x in range(3)]
+
+matriz2 = []
+for i in range(3)
+    sublista = []
+    matriz2.append(sublista)
+    for x in range(2):
+        sublista.append(x)
+        print(matriz2)
+        
+ #como acessar eelemento dentro da lista
+ print(matriz[1])       
+
 
