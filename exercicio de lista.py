@@ -42,5 +42,10 @@ print(livros)
 '''
 
 #(08)
-lista = [12, 18, 25, 14, 30]
-print(
+numero = [12, 18, 25, 14, 30]
+maiores_ou_iguais = [18]
+for numero in numeros:
+    if
+
+
+         
