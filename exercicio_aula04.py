@@ -63,6 +63,7 @@ print(3%4)
 lista = [42, 3.14, "Python", True, [1, 2]]
 
 variavel = 42; 1; 2               #int
+
 print(type(variavel))
 
 variavel = 3.14                   #float
