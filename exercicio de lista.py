@@ -1,51 +1,102 @@
-'''''
-livros = ["3 livros diferentes"]
-livro1 = ["romance"]
-livro2 = ["religião"]
-livro3 = ["politica"]
 
+""" Q1
 livros = ["romance", "religião", "politica"]
 print(livros)
 
-# (2)
+"""
+
+""" Q2
+
 livros = ["romance", "religião", "politica"]    #imprimindo apenas "o primeiro e ultimo"
 livros.remove("religião")
 print(livros)
 
-#(03)
+"""
+
+""" Q3
+
 livros = ["romance", "religião", "politica"]
 livros.append(["sociologia","matematica"])
 print(livros)
 
-#(04)
+"""
+
+""" Q4
+
 livros = ["romance", "religião", "politica"]
 livros.insert(2, "Duna")
 print(livros)
 
-#(05)
-livros = ["romance", "religião", "politica"]
-livros.remove("silencio dos inocentes"/"não encontrado")     #não consegui
-print(livros)
-'''
+"""
 
-'''
-#6
+""" Q5
+
+livros = ["romance", "religião", "politica"]
+if "Silêncio dos inocentes" in livros:
+    livros.remove("Silêncio dos inocentes")
+else:
+    print("Livro não encontrado")
+print(livros)
+
+"""
+
+""" Q6
+
 numeros = [1, 2, 3, 2, 4, 2, 4, 5]
 numeros.count([2])
 print(numeros)
-'''
-'''
-#(07)
-livros = ["romance é interessante", "religião é interessante", "Duna é interessante", "politica é interessante", "sociologia é ínteressante", "matematica é interessante"]
-print(livros)
-#bingo, yes
-'''
 
-#(08)
-numero = [12, 18, 25, 14, 30]
-maiores_ou_iguais = [18]
-for numero in numeros:
-    if
+"""
 
 
-         
+#método def
+livros = ["romance", "religião", "Duna", "politica", "sociologia", "matematica"]
+def elementos_interessantes(lista):
+    for elemento in lista:
+        print(f"O elemento '{elemento}' é interessante!")
+
+""" 
+
+idades = [12, 18, 25, 14, 30]
+for i in idades:
+    if i >= 18:
+        print(i)
+
+"""
+
+
+
+valores = [10, 20, 30, 40]
+soma = 0
+for v in valores:
+    soma += v
+print(soma)
+
+"""
+
+"''
+
+notas = []
+for i in range(2):
+    aluno = []
+    for j in range(3):
+        n = float(input("Nota: "))
+        aluno.append(n)
+    notas.append(aluno)
+for aluno in notas:
+    media = sum(aluno) / len(aluno)
+    print(media)
+
+"""
+
+""" 
+
+import numpy as np       # biblioteca que questão pediu
+tabuleiro = [["[ ]" for i in range(8)] for j in range(8)]
+tabuleiro[0] = ["tor","cav","bis","rai","rei","bis","cav","tor"]
+tabuleiro[1] = ["pea"]*8
+tabuleiro[6] = ["pea"]*8
+tabuleiro[7] = ["tor","cav","bis","rai","rei","bis","cav","tor"]
+print(np.array(tabuleiro))
+
+'''
