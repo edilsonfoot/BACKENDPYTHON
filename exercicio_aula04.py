@@ -37,7 +37,7 @@ print(lista)
 aluno = {"nome": "idade" }
 "nome": "Maria"
 "idade": 22
-"curso": "Engenharia"
+"curso": ""
 "notas": [8.5, 7.0, 9.2]
 
 
