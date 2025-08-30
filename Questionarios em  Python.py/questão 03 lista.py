@@ -1,9 +1,11 @@
 '''
-Insira o livro "Duna" na segunda posição da lista livros usando insert().
+Adicione mais dois livros à lista livros usando o método append() e exiba a lista atualizada.
 '''
 
-livros = ["romance", "religião", "politica"]
+#Método .append()
 
-#Método .insert()
-livros.insert(2, "Duna")
+livros = ["romance", "religião", "politica"]
+livros.append(["sociologia","matematica"])
+
+#Imprimindo lista atualizada
 print(livros)
