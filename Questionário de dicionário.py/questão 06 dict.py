@@ -6,6 +6,7 @@ Escreva uma função que receba uma lista de palavras e retorne um dicionário c
 palavras = ["maçã", "banana", "maçã", "laranja", "banana", "maçã"]
 '''
 
+#Usando a função "def" para encontrar a quantidade de cada produto
 
 def contar(palavras):
     contagem = {}
