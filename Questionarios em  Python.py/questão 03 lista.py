@@ -8,4 +8,5 @@ livros = ["romance", "religião", "politica"]
 livros.append(["sociologia","matematica"])
 
 #Imprimindo lista atualizada
+
 print(livros)
