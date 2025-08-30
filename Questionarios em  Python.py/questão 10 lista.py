@@ -14,14 +14,13 @@ for i in range(2):
 
 
     for j in range(3):
-        n = float(input("Nota {7.0, 8.0, 9.0}: "))                
+        n = float(input("Nota {j + 1}: "))                
         aluno_notas.append(nota) 
 
 
 notas.append(aluno_notas)
-'''
+
 #calculando a média de cada aluno e exibindo-as
 for i, aluno in enumerate(notas, start=1):
     media = sum(aluno) / len(aluno)
     print(f"A media do aluno {i} é: {media:.2f}")
-'''
