@@ -4,13 +4,10 @@ notas = [[7, 8, 9], [6, 5, 7]]. No fim, imprima a média de cada aluno.
 '''
 
 
-#lista principal
-notas = []
-
 #coletando notas de 2  alunos
 for i in range(2):
     aluno_notas = []
-    print(f"\ndigite as três notas do aluno {i + 1}:")    #i + 1
+    print(f"\ndigite as três notas do aluno {i + 1}:")    
 
 
     for j in range(3):
