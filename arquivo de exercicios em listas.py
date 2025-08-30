@@ -48,7 +48,7 @@ print(f"O numero 2 aparece {quantidade} vezes.")
 '''
 
 
-'''
+'''7
 #método def
 livros = ["romance", "religião", "Duna", "politica", "sociologia", "matematica"]
 def elementos_interessantes(lista):
@@ -57,7 +57,7 @@ def elementos_interessantes(lista):
 '''
 
 
-'''
+'''8
 
 idades = [12, 18, 25, 14, 30]
 for i in idades:
@@ -66,7 +66,7 @@ for i in idades:
 '''
 
 
-'''
+'''9
 
 valores = [10, 20, 30, 40]
 soma = 0
@@ -75,19 +75,29 @@ for v in valores:
 print(soma)
 
 '''
-''
-'''
-#Método 
+
+'''10
+
+#lista principal
 notas = []
+
+
 for i in range(2):
-    aluno = []
+    aluno_notas = []
+    print(f"\ndigite as três notas do aluno {i + 1}:")
+
+
     for j in range(3):
-        n = float(input("Nota: "))
-        aluno.append(n)
-    notas.append(aluno)
-for aluno in notas:
+        n = float(input("Nota {j + 1}: "))
+        aluno_notas.append(nota) 
+
+
+notas.append(aluno_notas)
+
+
+for i, aluno in enumerate(notas, start=1):
     media = sum(aluno) / len(aluno)
-    print(media)
+    print(f"A media do aluno {i} é: {media:.2f}")
 '''
 
 
