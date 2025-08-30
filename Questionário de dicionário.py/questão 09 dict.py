@@ -3,7 +3,7 @@ Escreva uma função que recebe dois dicionários e retorna um novo dicionário 
 '''
 
 
-#Usando a função "def" no método ".copy" com a  função "return"
+#Usando a função "def" no método ".copy" com a  função "return" para mesclar dois dicionários
 def mesclar(d1, d2):
     d3 = d1.copy()
     d3.update(d2)
