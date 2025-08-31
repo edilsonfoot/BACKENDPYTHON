@@ -16,7 +16,7 @@ match num:
             
 
 
-''''
+
 #dias da semana 
 
 def dia_semana(dia):
@@ -37,9 +37,9 @@ def dia_semana(dia):
         return "sábado"    
     else:
         return "valor {} invalido".format(dia)          
-       dia_semana() > if dia == 1
-''''''
+        dia_semana()  >  dia == 1
 
+       
 
 def dia_semana(dia):
     match dia:
@@ -59,10 +59,56 @@ def dia_semana(dia):
                return "sábado"  
            case _:
               return "valor {} inválido".format(dia)
-    
 
 print(dia_semana(1))
 print(dia_semana(5))
+print(dia_semana(7))
+print(dia_semana({}))       
+print(dia_semana(6))
+print(dia_semana(3))
+print(dia_semana(2))
+print(dia_semana(4))
 
-       
 
+def mês_ano(mês):
+    match mês:
+        case 1:
+            return "janeiro"
+        case 2:
+            return "fevereiro"
+        case 3:
+            return "março"
+        case 4:
+            return "abril"
+        case 5:
+            return "maio"
+        case 6:
+            return "junho"
+        case 7:
+            return "julho"
+        case 8:
+            return "agosto"
+        case 9:
+            return "setembro"
+        case 10:
+            return "outubro"
+        case 11:
+            return "novembro"
+        case 12:
+            return "dezembro"
+        case _:
+            return "valor {} inválido".format(mês)
+        
+        
+print(mês_ano(1))
+print(mês_ano(2))
+print(mês_ano(4))
+print(mês_ano(5))
+print(mês_ano(6))
+print(mês_ano(7))
+print(mês_ano(8)) 
+print(mês_ano(9))
+print(mês_ano(10))
+print(mês_ano(11))
+print(mês_ano(12))
+print(mês_ano({}))
