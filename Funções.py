@@ -25,12 +25,14 @@ print(casa)
 def soma(num1 + num2):
     valor_somado = (num1+num2):
     print(valor_somado)
-'''       
-valor = soma(2,2)
+'''  
+
+'''
+valor = soma(2, 2)
 print(f"A soma retornou: {valor}")
-        
+
    
-def soma(num1,mu,2):
+def soma(num1, num2):
     global valor_somado
     valor_somado = num1+num2
     if valor_somado >= 1:
@@ -42,3 +44,44 @@ def soma(num1,mu,2):
 valor = soma(0,1)
 print(valor_somado)
 print(f" retorna valor <1")    
+'''
+
+# como funciona:
+    # def nome_da_funcao(parametros):
+        # instrução 1
+        # instrução 2
+        # instrução 3
+        # return valor (opcional)
+         
+        
+def calcular_imposto(valor):
+    if valor < 1000:
+        imposto = valor * 0.1
+    elif valor < 2000:
+        imposto = valor * 0.13
+    else:
+        imposto = valor * 0.2
+
+    return imposto
+
+
+preço_produto1 = 2500
+preço_produto2 = 3500
+imposto_produto1 = calcular_imposto(preço_produto1)
+imposto_produto2 = calcular_imposto(preço_produto2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
