@@ -88,8 +88,8 @@ for aluno in notas:
     print(media)
 
 """
+#Usando linha de comprehension, crie um tabuleiro vazio
 
-""" 
 
 import numpy as np       # biblioteca que questão pediu
 tabuleiro = [["[ ]" for i in range(8)] for j in range(8)]
@@ -99,4 +99,28 @@ tabuleiro[6] = ["pea"]*8
 tabuleiro[7] = ["tor","cav","bis","rai","rei","bis","cav","tor"]
 print(np.array(tabuleiro))
 
+tabuleiro = [["[]" for casa in range (8)] for linha in range(8)]
+print(tabuleiro)
+linha_peões = ["pea"]*8
+print(linha_peões)
+lista_peças = ["tor, "cav", "bis", "rai", rei", "bis", "cav", "tor"]
+
+tabuleiro[0] = linha_pecas.copy()
+tabuleiro[-1] = linha_pecas[::-1].copy()
+tabuleiro[1] = linha_peoes.copy()
+tabuleiro[-2] = linha_peoes.copy()
 '''
+tabuleiro.insert
+
+
+for linha in tabuleiro:
+    print(linha)
+'''
+
+print()
+for linha in tabuleiro:
+    print(linha)
+
+
+
+#subistituido a ultima linha
