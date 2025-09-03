@@ -6,14 +6,14 @@
 '''
 
 
-nota = int(input("8: "))
+nota = int(input("4: "))
 
 if nota >= 7:
-    print(int("Aprovado"))
-elif  nota < 5 and nota <= 6.9:
-    print(int("Recuperação"))
+    print("Aprovado")
+elif  nota > 5 and nota <= 6.9:
+    print("Recuperação")
 else:                              # ELSE é exceção, não tem condição própria
-    print(int("Reprovado"))
+    print("Reprovado")
 
 
 
