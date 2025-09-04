@@ -1,0 +1,15 @@
+se não estiver na pasta do repositório, "cd nome_do_repositorio"
+se quiser voltar pra pasta anterior, "cd .."
+se quiser abrir um repositorio novo no vscode, 
+    abre a pasta que você quer clonar dentro e "git clone linkdapasta.github"
+
+te amo! <3
+
+iniciar projeto no CRUD
+    formar um grupo com 5 pessoas
+    1o arquivo é uma lista (cód., nome, valor, qtd de compra e qtd de estoque, insumos/venda)
+
+horários
+    seg, qua e sexta: 18h às 21h
+
+estudar docker
