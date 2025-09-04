@@ -24,8 +24,11 @@ print(resultado)
 
 #função muultiplicação
 
-def mult_num(num1,num2):
+def oper_mult_num(num1,num2):
     return (num1 * num2)
 
-resultado = mult_num(10,20)
+resultado = oper_mult_num(10,20)
 print(resultado)
+
+
+#show
