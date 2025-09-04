@@ -6,8 +6,8 @@ Crie uma função chamada mensagem que receba um nome como parâmetro e exiba a 
           Caso o nome não seja informado, mostre "Olá, visitante!".
 '''
 
-saudação = "Olá, [Edilson!"
-def Olá(nome=nome):
+saudação = "Olá, [nome]!"
+def Olá(nome = "nome" ):
     if nome:
         return f"Olá, {nome}"
     else:
