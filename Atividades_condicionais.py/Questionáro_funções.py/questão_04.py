@@ -4,10 +4,10 @@ Crie uma função chamada mensagem que receba um nome como parâmetro e exiba a 
 "Olá, [nome]!"
 
           Caso o nome não seja informado, mostre "Olá, visitante!".
+
 '''
-nome = "Edilson"
-saudação = "Olá, [Edilson]!"
-def Olá(nome="nome"):
+saudação = "Olá, [nome]!"
+def Olá(nome):
     if nome:
         return f"Olá, {nome}"
     else:
