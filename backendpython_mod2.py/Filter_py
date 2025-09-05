@@ -1,0 +1,42 @@
+# A função filter() no Python é usada para filtrar elementos de um iterável (como listas ou tuplas) com base em uma condição definida por uma função. Essa função deve retornar True para os elementos que devem ser mantidos e False para os que devem ser descartados.
+
+ # Exemplo Básico
+
+# Filtrar números pares de uma lista
+numeros = [1, 2, 3, 4, 5, 6]
+pares = filter(lambda x: x % 2 == 0, numeros)
+print(list(pares)) # Saída: [2, 4, 6]
+
+
+# Uma função retornando true ou false.    iteravel: O iterável a ser filtrado.
+# Filtrar números positivos
+def eh_positivo(numero):
+  return numero > 0
+
+numeros = [-3, -1, 0, 2, 4]
+positivos = filter(eh_positivo, numeros)
+print(list(positivos)) # Saída: [2, 4]
+
+
+
+# Usando None no Lugar da Função
+
+# Se você passar None como função, o filter() remove automaticamente valores "falsos" (como 0, None, strings vazias e listas vazias).
+
+valores = [0, 1, '', 'Python', [], [1, 2], None]
+filtrados = filter(None, valores)
+print(list(filtrados)) # Saída: [1, 'Python', [1, 2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
