@@ -6,7 +6,7 @@ Crie uma função chamada mensagem que receba um nome como parâmetro e exiba a 
           Caso o nome não seja informado, mostre "Olá, visitante!".
 
 '''
-nome = "Edilson"
+
 def função_mensagem(nome):
     if nome:
         return f"Olá, {nome}"

@@ -5,7 +5,7 @@ Crie uma função chamada operacoes que receba dois números e retorne a soma, a
 '''
 #função de adição retornando a soma
 def oper_soma_num(num1,num2):
-    return (num1 + num2)
+    return (num1+num2)
 
 resultado = oper_soma_num(10,20)
 print(resultado)
@@ -15,7 +15,7 @@ print(resultado)
 
 '''
 def oper_subtração_num(num1,num2):
-    return (num1 - num2)
+    return (num1-num2)
 
 resultado = oper_subtração_num(20,10)
 print(resultado)
@@ -25,7 +25,7 @@ print(resultado)
 #função muultiplicação
 
 def oper_mult_num(num1,num2):
-    return (num1 * num2)
+    return (num1*num2)
 
 resultado = oper_mult_num(10,20)
 print(resultado)
