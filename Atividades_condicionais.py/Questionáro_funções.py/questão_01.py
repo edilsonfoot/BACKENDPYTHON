@@ -7,7 +7,7 @@ Crie uma função chamada saudacao que imprime na tela a mensagem "Olá, bem-vin
 def nome_função():
     print("Olá, ben-vindo ao python!")
 
-     
+
 nome_função()
 
 
