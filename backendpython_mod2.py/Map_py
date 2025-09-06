@@ -1,0 +1,37 @@
+# Map em python
+
+# Dobrar os valores de uma lista
+numeros = [1, 2, 3, 4, 5]                       #
+dobrados = map(lambda x: x * 2, numeros)
+print(list(dobrados)) # Saída: [2, 4, 6, 8, 10]
+
+
+# Elevando lista ao quadrado
+def quadrado(x):
+  return x ** 2
+
+numeros = [1, 2, 3]
+resultado = map(quadrado, numeros)
+print(list(resultado)) # Saída: [1, 4, 9]
+
+
+
+# Trabalhando com Múltiplos Iteráveis
+
+# A função map() também aceita múltiplos iteráveis:
+
+bases = [2, 3, 4]
+expoentes = [3, 2, 1]
+potencias = map(pow, bases, expoentes)
+print(list(potencias)) # Saída: [8, 9, 4]
+
+
+
+
+
+
+
+
+
+
+
