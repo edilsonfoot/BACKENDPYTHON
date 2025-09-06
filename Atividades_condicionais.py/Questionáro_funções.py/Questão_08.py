@@ -30,7 +30,7 @@ def calculadora():
     elif escolha == '3':
         print(f"Resultado: {num1} * {num2} = {num1 * num2}")
     elif escolha == '4':
-        if num2 != 0:
+        if nmit -mum2 != 0:
             print(f"Resultado: {num1} / {num2} = {num1 / num2}")
         else:
             print("Erro: Divisão por zero não é permitida.")
