@@ -1,12 +1,12 @@
 '''
-1.Escreva um programa que peça ao usuário para digitar um número. Trate o erro caso ele digite algo que não seja um número inteiro.
-'''
+# 1.Escreva um programa que peça ao usuário para digitar um número. Trate o erro caso ele digite algo que não seja um número inteiro.
+
 try:
   
    numero = int(input("Digite um numero inteiro: "))
    print(f"Voce digitou {numero}")
 except ValueError:
-   print("Erro: isoo não é um numero inteiro")  
+   print("Erro: isso não é um numero inteiro.")  
 '''
     
 '''
@@ -16,8 +16,8 @@ except ValueError:
 def multiplicar_numeros():
      try:
         # Solicita os dois números ao usuário
-        num1 = float(input("Digite o primeiro número: "))
-        num2 = float(input("Digite o segundo número: "))
+        num1 = int(input("Digite o primeiro número: "))
+        num2 = input(input("Digite o segundo número: "))
         resultado = num1 * num2
         print(f"O resultado da multiplicação é: {resultado}")
      except ValueError:
@@ -27,45 +27,49 @@ def multiplicar_numeros():
 '''
 # 3.Crie um programa que peça ao usuário um número inteiro. Se a conversão for bem-sucedida, mostre uma mensagem usando o bloco else.
 '''
+'''
 try:
     numero = int(input("Digite um número inteiro: "))
 except ValueError:
     print("Erro: O valor digitado não é um número inteiro.")
 else:
     print(f"Você digitou o número inteiro: {numero}")
-
-'''
-4.Implemente um programa que abra um arquivo chamado dados.txt (não precisa existir). Use try e finally para garantir que uma mensagem de "Encerrando programa" seja sempre exibida.
 '''
 
+'''
+# 4.Implemente um programa que abra um arquivo chamado dados.txt (não precisa existir). Use try e finally para garantir que uma mensagem de "Encerrando programa" seja sempre exibida.
+'''
+
+'''
 try:
-    arquivo = open("dados.txt", "w")
-    arquivo.write("Exemplo de escrita no arquivo.\n")
-except Exception as e:
-    print(f"Ocorreu um erro ao abrir ou escrever no arquivo: {e}")
+    arquivo = open("dados.txt", "r")
+except FileNotFoundError:
+    print("Erro: o arquivo não foi encontrado.")
 finally:
     print("Encerrando programa")
-    if 'arquivo' in locals():
-        arquivo.close()
 '''
 
-5.Crie uma função dividir(a, b) que lance (raise) uma exceção ZeroDivisionError se b for igual a zero. Caso contrário, retorne o resultado da divisão.
+'''
+# 5.Crie uma função dividir(a, b) que lance (raise) uma exceção ZeroDivisionError se b for igual a zero. Caso contrário, retorne o resultado da divisão.
+'''
 
-
+'''
 def dividir(a, b):
     if b == 0:
         raise ZeroDivisionError("não é posssível dividir por zero.")
     return a / b
+
 print(dividir(20, 4))
 print(dividir(20, 0))
+'''
 
 
 
+'''
+# 6.Crie uma exceção personalizada chamada IdadeInvalidaError. Depois, crie uma função cadastrar_idade(idade) que lance essa exceção caso a idade seja negativa.
+'''
 
-
-6.Crie uma exceção personalizada chamada IdadeInvalidaError. Depois, crie uma função cadastrar_idade(idade) que lance essa exceção caso a idade seja negativa.
-
-
+'''
 class IdadeInvalidaError(Exception):
     pass
     
@@ -76,14 +80,14 @@ def cadastrar_idade(idade):
     return f"Idade {idade} cadastrada com sucesso."
 
 print(cadastrar_idade(30))    
-   print(cadastrar_idade(-3))
-
+print(cadastrar_idade(-3))
+'''
 
    
 '''
-7.Peça ao usuário dois números e divida o primeiro pelo segundo. Trate dois tipos de erro:
+# 7.Peça ao usuário dois números e divida o primeiro pelo segundo. Trate dois tipos de erro:
 '''
-
+'''
 try:
     
    a = int(input("Digite o primeiro número: "))
@@ -100,7 +104,7 @@ else:
 
 
 '''
-8.Crie um programa que peça ao usuário um número inteiro e verifique se ele é par. Use:
+# 8.Crie um programa que peça ao usuário um número inteiro e verifique se ele é par. Use:
 '''
 '''
 try para a conversão,
@@ -128,7 +132,7 @@ finally:
 
 
 '''
-9.Crie uma função sacar(saldo, valor) que:
+# 9.Crie uma função sacar(saldo, valor) que:
 Lance (raise) uma exceção personalizada SaldoInsuficienteError se o valor for maior que o saldo.
 Caso contrário, retorne o novo saldo. Teste a função dentro de um try-except e exiba uma mensagem apropriada ao usuário.
 
