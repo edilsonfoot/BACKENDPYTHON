@@ -1,5 +1,5 @@
 
-
+'''
 class Carro:
     def __init__(self, marca, modelo, cor, combustivel):
         self.marca = marca
@@ -23,6 +23,7 @@ class Carro:
             self.ligado = False
         else:
             print("Carro já está desligado, nada acontece")
+
 
     def acelerar(self):
         if self.ligado:
@@ -74,7 +75,37 @@ fusca.desligar()
 
 ferrari = Carro("ferrari", "ferrari 911", "Vermalha", "Gasolina")
 Tesla = Carro("Tesla", "Cibertruck", "Cinza", "Eletrico")
+'''
 
 
+
+class Cachorro:
+    especié = "Canis Lupus familiaris"                            # Método construtor
+    def __init__(self, nome, raca, idade,): 
+        self.nome = nome
+        self.raca = raca
+        self.idade = idade
+
+    def __str__(self):
+        return f"Especié: {self.especié}\nNome: {self.nome}\nRaca: {self.raca}\nIdade: {self.Idade}"   
+    
+
+  
+class Cachorro:
+    especié = "Canis Lupus familiaris"                            # Método construtor
+    def __init__(self, nome:str, raca:str, idade:int): 
+        self.nome = nome
+        self.raca = raca
+        self.idade = idade
+
+    def __str__(self):
+        return f"Especié: {self.especié}\nNome: {self.nome}\nRaca: {self.raca}\nIdade: {self.Idade}"   
+    
+
+    def Latir(self):
+        print("Au Au AU!!!")
+
+auau1 = Cachorro("bob", "runsk siberiano",15)
+auau1.Latir()
 
 
