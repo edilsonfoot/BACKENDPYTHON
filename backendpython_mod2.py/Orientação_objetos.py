@@ -85,6 +85,11 @@ class Cachorro:
         self.nome = nome
         self.raca = raca
         self.idade = idade
+        
+        self.marca = "Chevrolet"
+        self.modelo = "Onix"
+        self.ano = 2018
+
 
     def __str__(self):
         return f"Especié: {self.especié}\nNome: {self.nome}\nRaca: {self.raca}\nIdade: {self.Idade}"   
