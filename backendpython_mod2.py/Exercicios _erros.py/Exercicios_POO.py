@@ -198,6 +198,7 @@ class Turma:
 Na classe Aluno, implemente o método __str__ para que, ao imprimir um objeto da classe, apareça algo como:"Aluno: Maria - Nota: 9.5". Teste imprimindo os objetos.
 '''
 
+'''
 class Aluno:
 
     def __init__(self, nome:str, nota:float):     # Método construtor
@@ -208,18 +209,35 @@ class Aluno:
         self.nota = 9.5
 
     def __str__(self):
-        return f"Aluno: {self.aluno}\nNome: \n:Nota{self.nota}"
-    
-    
+        return f"Aluno: {self.aluno}\nNome: \n:Nota{self.nota}"         #Não imprimiu
+''' 
+
+'''
+Crie uma classe Cachorro com um atributo de classe especie = "Canis familiaris" e atributos de instância nome e idade. Mostre a diferença entre acessar especie pelo objeto e pela classe.
+'''
+
+'''
+class Cachorro:
+    especie = "Canis familiaris"
+    def __init__(self, nome, idade): # Método construtor
+        self.nome = nome
+        self.idade = idade
 
 
+#acessando a especié pelo objeto vc tem acesso a todos os atributos
+doguinho = Cachorro()
+print(doguinho.especie, doguinho.nome, doguinho.idade, sep="\n")
 
 
+#Acessando pela classe vc tem acesso a todas as modificações atribuidas ao objeto.
 
+print(Cachorro.nome)
+Cachorro.nome = "Rex"
 
-
- 
-
+print(Cachorro.nome)
+print(auau.nome)
+print(doguinho.nome)
+'''
 
 
 
