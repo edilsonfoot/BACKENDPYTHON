@@ -43,3 +43,14 @@ list(map(lambda num: num ** 3, nums_list))|
 filter(lambda num: num % 2 == 0)             #diferente de map, filter precisa de um argumento
                                              #retornando true ou false (true inclui na lista)
 [2, 4, 6]                                     
+
+
+
+
+
+
+
+
+
+
+
