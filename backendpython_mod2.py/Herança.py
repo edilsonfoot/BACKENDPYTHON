@@ -16,6 +16,7 @@ class Carro(Veiculo):
         self.cor = cor # Atributo específico do Carro
 
     def ligar_radio(self):
+    
         print("Ligando o rádio do carro...")
 
 # Cria um objeto da classe Carro
