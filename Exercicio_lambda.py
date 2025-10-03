@@ -47,29 +47,67 @@ numeros = [1, 2, 3, 4, 5]
 '''
 
 
-
-
-
-
-
-
-
 '''
 Dada a lista ["uva", "banana", "maçã", "laranja"], ordene as palavras pelo tamanho usando sorted e lambda.
 Primeira letra maiúscula (map + lambda)
+'''
+'''
+lista = ["uva", "banana", "maçã", "laranja"]
 
-Dada a lista ["ana", "pedro", "maria"], use map e lambda para transformar em ["Ana", "Pedro", "Maria"].
-Produto dos números (reduce + lambda)
+# Ordenando por tamanho da palavra
+ordenado_tamanho = sorted(lista, key=lambda palavra: len(palavra))
+print("Ordem por tamanho:", ordenado_tamanho)
+'''
 
-Usando reduce, calcule o produto (multiplicação) de todos os elementos da lista [2, 3, 4, 5].
-Ordenar por último caractere (sorted + lambda)
+'''
+lista = ["uva", "banana", "maçã", "laranja"]
 
-Dada a lista ["banana", "uva", "maçã", "laranja"], ordene as palavras pelo último caractere.
+# Usando map com str.title para capitalizar as primeiras letras
+resultado = list(map(str.title, lista))
+
+print(resultado)
 '''
 
 
+'''
+Dada a lista ["ana", "pedro", "maria"], use map e lambda para transformar em ["Ana", "Pedro", "Maria"].
+Produto dos números (reduce + lambda)
+'''
+
+'''
+lista = ["ana", "pedro", "maria"]
+
+resultado = list(map(str.title, lista))
+
+print(resultado)
+'''
 
 
+'''
+Usando reduce, calcule o produto (multiplicação) de todos os elementos da lista [2, 3, 4, 5].
+Ordenar por último caractere (sorted + lambda)
+'''
+'''
+lista = [2, 3, 4, 5]
+from functools import reduce
+
+# Lista de exemplo
+numeros = [2, 3, 4, 5]
+
+# Multiplicando todos os elementos da lista
+resultado = reduce(lambda x, y: x * y, numeros)
+
+print(resultado)
+'''
+
+'''
+Dada a lista ["banana", "uva", "maçã", "laranja"], ordene as palavras pelo último caractere.
+'''
+
+lista = ["banana", "uva", "maçã", "laranja"]
 
 
+ordenado = sorted(lista, key=lambda palavra: palavra[-1])
+
+print(ordenado)
 
