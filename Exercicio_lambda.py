@@ -104,10 +104,11 @@ print(resultado)
 Dada a lista ["banana", "uva", "maçã", "laranja"], ordene as palavras pelo último caractere.
 '''
 
+'''
 lista = ["banana", "uva", "maçã", "laranja"]
 
 
 ordenado = sorted(lista, key=lambda palavra: palavra[-1])
 
 print(ordenado)
-
+'''
