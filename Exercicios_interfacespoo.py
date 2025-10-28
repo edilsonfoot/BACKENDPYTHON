@@ -143,7 +143,7 @@ if __name__ == "__main__":
 Crie uma interface Repositorio com os métodos salvar(objeto) e buscar(id). Depois, crie uma classe RepositorioMemoria que não implemente um dos métodos. O que acontece quando você tenta instanciá-la? Corrija o código.
 '''
 
-
+'''
 # Definindo a interface Repositorio usando Python
 from abc import ABC, abstractmethod
 
@@ -191,7 +191,7 @@ if __name__ == "__main__":
         print("Buscado id 1:", resultado.get_nome())
     else:
         print("Objeto não encontrado.")
-
+'''
 
 
 
