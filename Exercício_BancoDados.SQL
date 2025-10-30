@@ -13,6 +13,7 @@
 --FROM Aluno;
 
 
+
 --3. Liste todos os alunos cuja nota2 seja maior que 8. (Use WHERE)
 
 --SELECT nome, nota1
@@ -42,10 +43,35 @@
 
 --7. Liste o ano das turmas e a quantidade de turmas por ano. (Use GROUP BY)
 
+--SELECT ano, COUNT(*) AS quantidade_turma
+--FROM Turma
+--GROUP BY ano;
+
+
 --8. Calcule a média da nota1 dos alunos por turma_id. (Use GROUP BY com função de agregação)
+
+--SELECT id_turma, AVG(nota1) AS media_nota1
+--FROM Aluno
+--GROUP BY id_turma;
+
+
+
 
 --9. Mostre o ano e a quantidade de turmas apenas para os anos que têm mais de 2 turmas. (Use GROUP BY e HAVING)
 
+--SELECT ano, COUNT(*) AS quantidade_turmas
+--FROM Turma
+--GROUP BY ano
+--HAVING COUNT(*) > 2;
+
+
 --10. Exiba o nome dos cursos e suas mensalidades, ordenando primeiro pela mensalidade (decrescente). (Use ORDER BY
+
+SELECT nome, mensalidade
+FROM Curso
+ORDER BY mensalidade DESC;
+
+
+
 
 
