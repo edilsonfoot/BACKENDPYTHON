@@ -3,6 +3,16 @@ Use o banco de dados: escola_v2.db
 
 COUNT Mostre quantos alunos estão cadastrados na tabela Aluno. (Use a função COUNT)
 
+
+
+
+
+
+
+
+
+
+
 MIN Mostre a menor mensalidade entre todos os cursos cadastrados. (Use a função MIN)
 
 MAX Mostre a maior nota1 registrada entre todos os alunos. (Use a função MAX)
