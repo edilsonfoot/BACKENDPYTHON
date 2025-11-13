@@ -1,0 +1,26 @@
+
+from abc import ABC, abstractmethod
+
+# 1. Interface do Produto (Produto Abstrato)
+class Transporte(ABC):
+    @abstractmethod
+    def entregar(self) -> str:
+        pass
+
+# 2. Classes de Produto Concretas
+class Caminhao(Transporte):
+    def entregar(self) -> str:
+        return "Entrega por caminhão em terra."
+
+class Navio(Transporte):
+    def entregar(self) -> str:
+        return "Entrega por navio no mar."
+
+# 3. Interface do Criador (Criador Abstrato)
+class FabricaTransporte(ABC):
+    @abstractmethod
+    def criar_transporte(self) -> Transporte:
+        pass
+    
+    def planejar_entrega(self) -> str:
+        # Lógica de negócios que usa o método fábrica para criar um produto
